@@ -1,3 +1,13 @@
+2025-09-02 02:39:20,428 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.2.0.2:8080
+2025-09-02 02:39:20,428 [33mPress CTRL+C to quit[0m
+2025-09-02 02:39:20,431  * Restarting with stat
+2025-09-02 02:39:21,934  * Debugger is active!
+2025-09-02 02:39:21,941  * Debugger PIN: 888-497-534
+2025-09-02 02:39:25,814 Email: dizzyking037@gmail.com, Password: dking4evalives$
+2025-09-02 02:39:25,814 127.0.0.1 - - [02/Sep/2025 02:39:25] "[32mPOST /mail HTTP/1.1[0m" 302 -
 2025-09-02 02:41:09,970 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:8080
@@ -8,6 +18,17 @@
 2025-09-02 02:41:11,525  * Debugger PIN: 888-497-534
 2025-09-02 02:41:30,794 127.0.0.1 - - [02/Sep/2025 02:41:30] "GET /mail HTTP/1.1" 200 -
 2025-09-02 02:41:30,872 127.0.0.1 - - [02/Sep/2025 02:41:30] "[36mGET /static/microsoft_logo.svg HTTP/1.1[0m" 304 -
+2025-09-02 02:41:59,831 Email: dizzyking037@gmail.com, Password: mememememe
+2025-09-02 02:41:59,831 127.0.0.1 - - [02/Sep/2025 02:41:59] "[32mPOST /mail HTTP/1.1[0m" 302 -
+2025-09-02 02:43:10,892 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.2.0.2:8080
+2025-09-02 02:43:10,892 [33mPress CTRL+C to quit[0m
+2025-09-02 02:43:10,894  * Restarting with stat
+2025-09-02 02:43:12,384  * Debugger is active!
+2025-09-02 02:43:12,391  * Debugger PIN: 888-497-534
+2025-09-02 02:44:50,530: Process hiding: PID 19604
 2025-09-02 02:44:50,542: Web interface started at port 8080
 2025-09-02 02:46:33,771: Key pressed: i
 2025-09-02 02:46:34,174: Key pressed: i
@@ -17,4 +38,564 @@
 2025-09-02 02:46:35,127: Key pressed: i
 2025-09-02 02:46:43,881: Key pressed: Key.esc
 2025-09-02 02:46:44,034: Clipboard report generated: clipboard_report_20250902_024644.json
-
+2025-09-02 12:38:54,179 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.2.0.2:8080
+2025-09-02 12:38:54,180 [33mPress CTRL+C to quit[0m
+2025-09-02 12:38:54,184  * Restarting with stat
+2025-09-02 12:38:56,176  * Debugger is active!
+2025-09-02 12:38:56,185  * Debugger PIN: 888-497-534
+2025-09-02 12:39:25,068: Process hiding: PID 26676
+2025-09-02 12:39:25,075: Web interface started at port 8080
+2025-09-02 13:00:53,809 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.2.0.2:8080
+2025-09-02 13:00:53,809 [33mPress CTRL+C to quit[0m
+2025-09-02 13:00:53,809  * Restarting with stat
+2025-09-02 13:00:54,255  * Debugger is active!
+2025-09-02 13:00:54,271  * Debugger PIN: 610-335-496
+2025-09-02 13:00:59,957 127.0.0.1 - - [02/Sep/2025 13:00:59] "[33mGET /data HTTP/1.1[0m" 404 -
+2025-09-02 13:01:01,422 127.0.0.1 - - [02/Sep/2025 13:01:01] "[33mGET /data HTTP/1.1[0m" 404 -
+2025-09-02 13:01:06,730 127.0.0.1 - - [02/Sep/2025 13:01:06] "[33mGET /data HTTP/1.1[0m" 404 -
+2025-09-02 13:01:07,539 127.0.0.1 - - [02/Sep/2025 13:01:07] "GET /mail HTTP/1.1" 200 -
+2025-09-02 13:01:07,879 127.0.0.1 - - [02/Sep/2025 13:01:07] "GET /static/microsoft_logo.svg HTTP/1.1" 200 -
+2025-09-02 13:01:44,541 Email: princeheritage1@gmail.com, Password: hello
+2025-09-02 13:01:44,543 127.0.0.1 - - [02/Sep/2025 13:01:44] "[32mPOST /mail HTTP/1.1[0m" 302 -
+2025-09-02 13:09:09,673  * Detected change in 'C:\\Users\\user\\OneDrive\\Documents\\style.js\\KEYLOGGER\\auth_ui.py', reloading
+2025-09-02 13:09:09,707  * Restarting with stat
+2025-09-02 13:09:10,268  * Debugger is active!
+2025-09-02 13:09:10,274  * Debugger PIN: 610-335-496
+2025-09-04 09:31:12,599: Process hiding: PID 10424
+2025-09-04 09:31:12,599: Web interface started at port 8080
+2025-09-04 09:31:31,828: Key pressed: h
+2025-09-04 09:31:32,001: Key pressed: o
+2025-09-04 09:31:32,168: Key pressed: w
+2025-09-04 09:31:32,535: Key pressed: Key.space
+2025-09-04 09:31:32,750: Key pressed: a
+2025-09-04 09:31:32,983: Key pressed: r
+2025-09-04 09:31:33,166: Key pressed: e
+2025-09-04 09:31:33,367: Key pressed: Key.space
+2025-09-04 09:31:33,551: Key pressed: y
+2025-09-04 09:31:33,667: Key pressed: o
+2025-09-04 09:31:33,817: Key pressed: u
+2025-09-04 09:31:43,675: Key pressed: Key.cmd
+2025-09-04 09:31:44,175: Key pressed: n
+2025-09-04 09:31:44,486: Key pressed: o
+2025-09-04 09:31:45,102: Key pressed: t
+2025-09-04 09:31:46,622: Key pressed: Key.enter
+2025-09-04 09:31:54,565: Key pressed: m
+2025-09-04 09:31:54,688: Key pressed: y
+2025-09-04 09:31:54,816: Key pressed: Key.space
+2025-09-04 09:31:55,031: Key pressed: n
+2025-09-04 09:31:55,181: Key pressed: a
+2025-09-04 09:31:55,314: Key pressed: m
+2025-09-04 09:31:55,530: Key pressed: e
+2025-09-04 09:31:55,618: Key pressed: Key.space
+2025-09-04 09:31:55,830: Key pressed: i
+2025-09-04 09:31:55,830: Clipboard captured: clipboard_data/clipboard_20250904_093155.txt
+2025-09-04 09:31:55,980: Key pressed: s
+2025-09-04 09:31:56,179: Key pressed: Key.space
+2025-09-04 09:31:56,695: Key pressed: o
+2025-09-04 09:31:56,928: Key pressed: j
+2025-09-04 09:31:57,179: Key pressed: u
+2025-09-04 09:31:57,346: Key pressed: r
+2025-09-04 09:31:57,514: Key pressed: e
+2025-09-04 09:31:57,712: Key pressed: r
+2025-09-04 09:31:57,912: Key pressed: e
+2025-09-04 09:31:58,164: Key pressed: Key.space
+2025-09-04 09:31:59,277: Key pressed: i
+2025-09-04 09:31:59,526: Key pressed: Key.space
+2025-09-04 09:31:59,676: Key pressed: a
+2025-09-04 09:31:59,860: Key pressed: m
+2025-09-04 09:32:00,142: Key pressed: Key.space
+2025-09-04 09:32:00,342: Key pressed: a
+2025-09-04 09:32:00,642: Key pressed: Key.space
+2025-09-04 09:32:01,408: Key pressed: g
+2025-09-04 09:32:01,525: Key pressed: i
+2025-09-04 09:32:01,708: Key pressed: r
+2025-09-04 09:32:01,956: Key pressed: l
+2025-09-04 09:32:02,274: Key pressed: Key.space
+2025-09-04 09:32:02,474: Key pressed: w
+2025-09-04 09:32:02,607: Key pressed: i
+2025-09-04 09:32:02,839: Key pressed: t
+2025-09-04 09:32:03,024: Key pressed: h
+2025-09-04 09:32:03,239: Key pressed: Key.space
+2025-09-04 09:32:03,423: Key pressed: a
+2025-09-04 09:32:03,623: Key pressed: Key.space
+2025-09-04 09:32:04,171: Key pressed: m
+2025-09-04 09:32:04,372: Key pressed: o
+2025-09-04 09:32:04,589: Key pressed: n
+2025-09-04 09:32:04,838: Key pressed: k
+2025-09-04 09:32:05,072: Key pressed: Key.space
+2025-09-04 09:32:05,355: Key pressed: h
+2025-09-04 09:32:05,488: Key pressed: e
+2025-09-04 09:32:05,702: Key pressed: a
+2025-09-04 09:32:06,886: Key pressed: d
+2025-09-04 09:32:07,369: Key pressed: Key.space
+2025-09-04 09:32:07,685: Key pressed: w
+2025-09-04 09:32:07,868: Key pressed: h
+2025-09-04 09:32:08,099: Key pressed: o
+2025-09-04 09:32:08,384: Key pressed: Key.space
+2025-09-04 09:32:08,551: Key pressed: d
+2025-09-04 09:32:08,667: Key pressed: o
+2025-09-04 09:32:08,784: Key pressed: e
+2025-09-04 09:32:08,968: Key pressed: s
+2025-09-04 09:32:09,267: Key pressed: n
+2025-09-04 09:32:09,450: Key pressed: t
+2025-09-04 09:32:09,567: Key pressed: Key.space
+2025-09-04 09:32:10,182: Key pressed: k
+2025-09-04 09:32:10,367: Key pressed: n
+2025-09-04 09:32:10,550: Key pressed: o
+2025-09-04 09:32:10,717: Key pressed: w
+2025-09-04 09:32:10,899: Key pressed: Key.space
+2025-09-04 09:32:11,185: Key pressed: h
+2025-09-04 09:32:11,417: Key pressed: o
+2025-09-04 09:32:11,635: Key pressed: w
+2025-09-04 09:32:11,819: Key pressed: Key.space
+2025-09-04 09:32:12,086: Key pressed: t
+2025-09-04 09:32:12,249: Key pressed: o
+2025-09-04 09:32:12,582: Key pressed: Key.space
+2025-09-04 09:32:13,137: Key pressed: s
+2025-09-04 09:32:13,285: Key pressed: l
+2025-09-04 09:32:13,437: Key pressed: e
+2025-09-04 09:32:13,619: Key pressed: e
+2025-09-04 09:32:13,931: Key pressed: p
+2025-09-04 09:32:14,385: Key pressed: Key.space
+2025-09-04 09:32:14,598: Key pressed: i
+2025-09-04 09:32:14,831: Key pressed: n
+2025-09-04 09:32:15,022: Key pressed: Key.space
+2025-09-04 09:32:15,151: Key pressed: t
+2025-09-04 09:32:15,300: Key pressed: h
+2025-09-04 09:32:15,422: Key pressed: e
+2025-09-04 09:32:15,563: Key pressed: Key.space
+2025-09-04 09:32:15,790: Key pressed: n
+2025-09-04 09:32:15,989: Key pressed: i
+2025-09-04 09:32:16,143: Key pressed: g
+2025-09-04 09:32:16,314: Key pressed: h
+2025-09-04 09:32:16,447: Key pressed: t
+2025-09-04 09:32:16,602: Key pressed: Key.space
+2025-09-04 09:32:16,813: Key pressed: a
+2025-09-04 09:32:16,952: Key pressed: n
+2025-09-04 09:32:17,139: Key pressed: d
+2025-09-04 09:32:17,283: Key pressed: Key.space
+2025-09-04 09:32:17,711: Key pressed: w
+2025-09-04 09:32:17,876: Key pressed: h
+2025-09-04 09:32:18,057: Key pressed: o
+2025-09-04 09:32:19,688: Key pressed: Key.space
+2025-09-04 09:32:19,894: Key pressed: i
+2025-09-04 09:32:20,060: Key pressed: s
+2025-09-04 09:32:20,193: Key pressed: Key.space
+2025-09-04 09:32:20,477: Key pressed: v
+2025-09-04 09:32:20,578: Key pressed: e
+2025-09-04 09:32:20,805: Key pressed: r
+2025-09-04 09:32:20,976: Key pressed: y
+2025-09-04 09:32:21,178: Key pressed: Key.space
+2025-09-04 09:32:21,421: Key pressed: v
+2025-09-04 09:32:21,528: Key pressed: e
+2025-09-04 09:32:21,762: Key pressed: r
+2025-09-04 09:32:21,895: Key pressed: y
+2025-09-04 09:32:22,159: Key pressed: Key.space
+2025-09-04 09:32:22,326: Key pressed: s
+2025-09-04 09:32:22,546: Key pressed: t
+2025-09-04 09:32:22,812: Key pressed: u
+2025-09-04 09:32:23,010: Key pressed: b
+2025-09-04 09:32:23,330: Key pressed: o
+2025-09-04 09:32:23,569: Key pressed: o
+2025-09-04 09:32:24,031: Key pressed: r
+2025-09-04 09:32:24,319: Key pressed: n
+2025-09-04 09:32:24,834: Key pressed: n
+2025-09-04 09:32:24,871: Key pressed: n
+2025-09-04 09:32:25,506: Key pressed: Key.space
+2025-09-04 09:32:26,667: Key pressed: Key.backspace
+2025-09-04 09:32:26,984: Key pressed: .
+2025-09-04 09:32:27,149: Key pressed: Key.space
+2025-09-04 09:32:27,901: Key pressed: e
+2025-09-04 09:32:28,052: Key pressed: v
+2025-09-04 09:32:28,218: Key pressed: e
+2025-09-04 09:32:28,402: Key pressed: n
+2025-09-04 09:32:28,615: Key pressed: Key.space
+2025-09-04 09:32:28,903: Key pressed: h
+2025-09-04 09:32:29,019: Key pressed: e
+2025-09-04 09:32:29,219: Key pressed: r
+2025-09-04 09:32:29,319: Key pressed: Key.space
+2025-09-04 09:32:29,549: Key pressed: m
+2025-09-04 09:32:29,720: Key pressed: u
+2025-09-04 09:32:29,886: Key pressed: m
+2025-09-04 09:32:30,034: Key pressed: m
+2025-09-04 09:32:30,454: Key pressed: y
+2025-09-04 09:32:30,771: Key pressed: Key.space
+2025-09-04 09:32:33,096: Key pressed: k
+2025-09-04 09:32:33,265: Key pressed: n
+2025-09-04 09:32:33,416: Key pressed: o
+2025-09-04 09:32:33,550: Key pressed: w
+2025-09-04 09:32:33,767: Key pressed: s
+2025-09-04 09:32:33,952: Key pressed: Key.space
+2025-09-04 09:32:34,256: Key pressed: s
+2025-09-04 09:32:34,463: Key pressed: h
+2025-09-04 09:32:34,626: Key pressed: e
+2025-09-04 09:32:34,725: Key pressed: Key.space
+2025-09-04 09:32:34,942: Key pressed: i
+2025-09-04 09:32:35,125: Key pressed: s
+2025-09-04 09:32:35,226: Key pressed: Key.space
+2025-09-04 09:32:35,410: Key pressed: a
+2025-09-04 09:32:35,509: Key pressed: Key.space
+2025-09-04 09:32:35,709: Key pressed: m
+2025-09-04 09:32:36,059: Key pressed: n
+2025-09-04 09:32:36,659: Key pressed: Key.backspace
+2025-09-04 09:32:37,588: Key pressed: o
+2025-09-04 09:32:37,811: Key pressed: n
+2025-09-04 09:32:38,045: Key pressed: k
+2025-09-04 09:32:38,379: Key pressed: Key.space
+2025-09-04 09:32:39,240: Key pressed: n
+2025-09-04 09:32:39,797: Key pressed: Key.backspace
+2025-09-04 09:32:39,958: Key pressed: a
+2025-09-04 09:32:40,140: Key pressed: n
+2025-09-04 09:32:40,280: Key pressed: d
+2025-09-04 09:32:40,410: Key pressed: Key.space
+2025-09-04 09:32:40,590: Key pressed: s
+2025-09-04 09:32:40,781: Key pressed: h
+2025-09-04 09:32:40,970: Key pressed: e
+2025-09-04 09:32:41,174: Key pressed: Key.space
+2025-09-04 09:32:43,350: Key pressed: d
+2025-09-04 09:32:43,567: Key pressed: o
+2025-09-04 09:32:43,783: Key pressed: e
+2025-09-04 09:32:43,935: Key pressed: s
+2025-09-04 09:32:44,249: Key pressed: Key.space
+2025-09-04 09:32:45,068: Key pressed: e
+2025-09-04 09:32:45,267: Key pressed: v
+2025-09-04 09:32:45,419: Key pressed: e
+2025-09-04 09:32:45,569: Key pressed: n
+2025-09-04 09:32:45,784: Key pressed: Key.space
+2025-09-04 09:32:45,981: Key pressed: b
+2025-09-04 09:32:46,103: Key pressed: a
+2025-09-04 09:32:46,381: Key pressed: t
+2025-09-04 09:32:46,550: Key pressed: h
+2025-09-04 09:32:46,687: Key pressed: e
+2025-09-04 09:32:46,837: Key pressed: e
+2025-09-04 09:32:46,970: Key pressed: e
+2025-09-04 09:32:47,114: Key pressed: e
+2025-09-04 09:32:47,254: Key pressed: e
+2025-09-04 09:32:47,404: Key pressed: e
+2025-09-04 09:32:48,154: Key pressed: Key.left
+2025-09-04 09:32:48,669: Key pressed: Key.left
+2025-09-04 09:32:48,701: Key pressed: Key.left
+2025-09-04 09:32:48,735: Key pressed: Key.left
+2025-09-04 09:32:48,767: Key pressed: Key.left
+2025-09-04 09:32:48,803: Key pressed: Key.left
+2025-09-04 09:32:48,833: Key pressed: Key.left
+2025-09-04 09:32:48,868: Key pressed: Key.left
+2025-09-04 09:32:48,901: Key pressed: Key.left
+2025-09-04 09:32:48,934: Key pressed: Key.left
+2025-09-04 09:32:48,966: Key pressed: Key.left
+2025-09-04 09:32:48,999: Key pressed: Key.left
+2025-09-04 09:32:49,032: Key pressed: Key.left
+2025-09-04 09:32:49,066: Key pressed: Key.left
+2025-09-04 09:32:49,098: Key pressed: Key.left
+2025-09-04 09:32:49,130: Key pressed: Key.left
+2025-09-04 09:32:49,256: Key pressed: Key.left
+2025-09-04 09:32:49,933: Key pressed: Key.right
+2025-09-04 09:32:50,609: Key pressed: n
+2025-09-04 09:32:50,786: Key pressed: t
+2025-09-04 09:32:51,268: Key pressed: Key.right
+2025-09-04 09:32:51,775: Key pressed: Key.right
+2025-09-04 09:32:51,811: Key pressed: Key.right
+2025-09-04 09:32:51,845: Key pressed: Key.right
+2025-09-04 09:32:51,885: Key pressed: Key.right
+2025-09-04 09:32:51,919: Key pressed: Key.right
+2025-09-04 09:32:51,951: Key pressed: Key.right
+2025-09-04 09:32:51,978: Key pressed: Key.right
+2025-09-04 09:32:52,017: Key pressed: Key.right
+2025-09-04 09:32:52,044: Key pressed: Key.right
+2025-09-04 09:32:52,082: Key pressed: Key.right
+2025-09-04 09:32:52,111: Key pressed: Key.right
+2025-09-04 09:32:52,149: Key pressed: Key.right
+2025-09-04 09:32:52,180: Key pressed: Key.right
+2025-09-04 09:32:52,213: Key pressed: Key.right
+2025-09-04 09:32:52,247: Key pressed: Key.right
+2025-09-04 09:32:52,278: Key pressed: Key.right
+2025-09-04 09:32:53,010: Key pressed: .
+2025-09-04 09:33:01,034: Key pressed: Key.space
+2025-09-04 09:33:01,535: Key pressed: Key.caps_lock
+2025-09-04 09:33:01,968: Key pressed: s
+2025-09-04 09:33:02,119: Key pressed: h
+2025-09-04 09:33:02,286: Key pressed: e
+2025-09-04 09:33:02,986: Key pressed: Key.backspace
+2025-09-04 09:33:03,276: Key pressed: Key.space
+2025-09-04 09:33:03,904: Key pressed: Key.backspace
+2025-09-04 09:33:04,264: Key pressed: e
+2025-09-04 09:33:04,352: Key pressed: Key.space
+2025-09-04 09:33:04,650: Key pressed: i
+2025-09-04 09:33:04,751: Key pressed: s
+2025-09-04 09:33:04,882: Key pressed: Key.space
+2025-09-04 09:33:05,017: Key pressed: a
+2025-09-04 09:33:05,098: Key pressed: Key.space
+2025-09-04 09:33:05,335: Key pressed: b
+2025-09-04 09:33:05,406: Key pressed: a
+2025-09-04 09:33:05,637: Key pressed: d
+2025-09-04 09:33:05,715: Key pressed: Key.space
+2025-09-04 09:33:05,989: Key pressed: p
+2025-09-04 09:33:06,082: Key pressed: e
+2025-09-04 09:33:06,315: Key pressed: r
+2025-09-04 09:33:06,495: Key pressed: s
+2025-09-04 09:33:06,657: Key pressed: o
+2025-09-04 09:33:06,894: Key pressed: n
+2025-09-04 09:33:07,410: Key pressed: n
+2025-09-04 09:33:07,443: Key pressed: n
+2025-09-04 09:33:07,478: Key pressed: n
+2025-09-04 09:33:07,509: Key pressed: n
+2025-09-04 09:33:07,541: Key pressed: n
+2025-09-04 09:33:07,574: Key pressed: n
+2025-09-04 09:33:07,609: Key pressed: n
+2025-09-04 09:33:07,642: Key pressed: n
+2025-09-04 09:33:07,676: Key pressed: n
+2025-09-04 09:33:07,708: Key pressed: n
+2025-09-04 09:33:07,740: Key pressed: n
+2025-09-04 09:33:07,774: Key pressed: n
+2025-09-04 09:33:07,805: Key pressed: n
+2025-09-04 09:33:19,152: Key pressed: Key.ctrl_l
+2025-09-04 09:33:19,635: Key pressed: 
+2025-09-04 09:33:24,210: Key pressed: Key.ctrl_l
+2025-09-04 09:33:24,677: Key pressed: 
+2025-09-04 09:33:55,079: Key pressed: Key.media_volume_mute
+2025-09-04 09:34:00,561: Key pressed: Key.right
+2025-09-04 09:34:00,861: Key pressed: Key.right
+2025-09-04 09:34:10,098: Key pressed: b
+2025-09-04 09:34:13,479: Key pressed: Key.space
+2025-09-04 09:43:58,508: Key pressed: Key.media_volume_mute
+2025-09-04 09:43:58,820: Key pressed: Key.media_volume_down
+2025-09-04 09:43:59,338: Key pressed: Key.media_volume_down
+2025-09-04 09:43:59,371: Key pressed: Key.media_volume_down
+2025-09-04 09:43:59,404: Key pressed: Key.media_volume_down
+2025-09-04 09:43:59,436: Key pressed: Key.media_volume_down
+2025-09-04 09:43:59,462: Key pressed: Key.media_volume_down
+2025-09-04 09:43:59,472: Clipboard captured: clipboard_data/clipboard_20250904_094359.txt
+2025-09-04 09:43:59,499: Key pressed: Key.media_volume_down
+2025-09-04 09:43:59,530: Key pressed: Key.media_volume_down
+2025-09-04 09:43:59,564: Key pressed: Key.media_volume_down
+2025-09-04 09:43:59,594: Key pressed: Key.media_volume_down
+2025-09-04 09:43:59,628: Key pressed: Key.media_volume_down
+2025-09-04 09:43:59,661: Key pressed: Key.media_volume_down
+2025-09-04 09:43:59,695: Key pressed: Key.media_volume_down
+2025-09-04 09:43:59,729: Key pressed: Key.media_volume_down
+2025-09-04 09:43:59,756: Key pressed: Key.media_volume_down
+2025-09-04 09:43:59,795: Key pressed: Key.media_volume_down
+2025-09-04 09:43:59,828: Key pressed: Key.media_volume_down
+2025-09-04 09:43:59,855: Key pressed: Key.media_volume_down
+2025-09-04 09:43:59,889: Key pressed: Key.media_volume_down
+2025-09-04 09:43:59,925: Key pressed: Key.media_volume_down
+2025-09-04 09:43:59,961: Key pressed: Key.media_volume_down
+2025-09-04 09:43:59,989: Key pressed: Key.media_volume_down
+2025-09-04 09:44:00,022: Key pressed: Key.media_volume_down
+2025-09-04 09:44:00,055: Key pressed: Key.media_volume_down
+2025-09-04 09:44:00,096: Key pressed: Key.media_volume_down
+2025-09-04 09:44:00,122: Key pressed: Key.media_volume_down
+2025-09-04 09:44:00,163: Key pressed: Key.media_volume_down
+2025-09-04 09:44:00,188: Key pressed: Key.media_volume_down
+2025-09-04 09:44:00,228: Key pressed: Key.media_volume_down
+2025-09-04 09:44:00,255: Key pressed: Key.media_volume_down
+2025-09-04 09:44:00,289: Key pressed: Key.media_volume_down
+2025-09-04 09:44:00,322: Key pressed: Key.media_volume_down
+2025-09-04 09:44:00,355: Key pressed: Key.media_volume_down
+2025-09-04 09:44:00,388: Key pressed: Key.media_volume_down
+2025-09-04 09:44:00,422: Key pressed: Key.media_volume_down
+2025-09-04 09:44:00,455: Key pressed: Key.media_volume_down
+2025-09-04 09:44:00,488: Key pressed: Key.media_volume_down
+2025-09-04 09:44:00,522: Key pressed: Key.media_volume_down
+2025-09-04 09:44:00,555: Key pressed: Key.media_volume_down
+2025-09-04 09:44:00,588: Key pressed: Key.media_volume_down
+2025-09-04 09:44:00,621: Key pressed: Key.media_volume_down
+2025-09-04 09:44:00,655: Key pressed: Key.media_volume_down
+2025-09-04 09:44:00,688: Key pressed: Key.media_volume_down
+2025-09-04 09:44:00,722: Key pressed: Key.media_volume_down
+2025-09-04 09:44:00,755: Key pressed: Key.media_volume_down
+2025-09-04 09:44:00,788: Key pressed: Key.media_volume_down
+2025-09-04 09:44:00,821: Key pressed: Key.media_volume_down
+2025-09-04 09:44:00,854: Key pressed: Key.media_volume_down
+2025-09-04 09:44:00,888: Key pressed: Key.media_volume_down
+2025-09-04 09:44:00,921: Key pressed: Key.media_volume_down
+2025-09-04 09:44:00,956: Key pressed: Key.media_volume_down
+2025-09-04 09:44:00,988: Key pressed: Key.media_volume_down
+2025-09-04 09:44:01,021: Key pressed: Key.media_volume_down
+2025-09-04 09:44:01,786: Key pressed: Key.media_volume_up
+2025-09-04 09:44:02,003: Key pressed: Key.media_volume_up
+2025-09-04 09:44:02,135: Key pressed: Key.media_volume_up
+2025-09-04 09:44:02,530: Key pressed: Key.media_volume_up
+2025-09-04 09:44:02,667: Key pressed: Key.media_volume_up
+2025-09-04 09:44:02,801: Key pressed: Key.media_volume_up
+2025-09-04 09:44:02,950: Key pressed: Key.media_volume_up
+2025-09-04 09:44:03,180: Key pressed: Key.media_volume_up
+2025-09-04 09:44:03,319: Key pressed: Key.media_volume_up
+2025-09-04 09:44:03,466: Key pressed: Key.media_volume_up
+2025-09-04 09:44:04,234: Key pressed: Key.media_volume_up
+2025-09-04 09:44:04,730: Key pressed: Key.media_volume_up
+2025-09-04 09:44:05,043: Key pressed: Key.media_volume_up
+2025-09-04 09:44:05,666: Key pressed: Key.media_volume_down
+2025-09-04 09:44:05,846: Key pressed: Key.media_volume_down
+2025-09-04 09:57:58,901: Key pressed: Key.cmd
+2025-09-04 09:59:15,272: Key pressed: Key.cmd
+2025-09-04 09:59:16,492: Key pressed: s
+2025-09-04 09:59:17,300: Key pressed: Key.caps_lock
+2025-09-04 09:59:17,679: Key pressed: e
+2025-09-04 09:59:17,882: Key pressed: e
+2025-09-04 09:59:18,651: Key pressed: Key.backspace
+2025-09-04 09:59:19,424: Key pressed: t
+2025-09-04 09:59:19,624: Key pressed: t
+2025-09-22 08:58:31,769: Process hiding: PID 2988
+2025-09-22 08:58:32,154: Web interface started at port 8080
+2025-09-22 08:58:50,867: Key pressed: Key.cmd
+2025-09-22 08:58:52,283: Key pressed: n
+2025-09-22 08:58:52,466: Key pressed: o
+2025-09-22 08:58:52,743: Key pressed: t
+2025-09-22 08:58:54,801: Key pressed: Key.enter
+2025-09-22 08:59:01,274: Key pressed: s
+2025-09-22 08:59:01,470: Key pressed: p
+2025-09-22 08:59:02,091: Key pressed: Key.backspace
+2025-09-22 08:59:02,701: Key pressed: o
+2025-09-22 08:59:02,911: Key pressed: Key.space
+2025-09-22 08:59:03,006: Key pressed: t
+2025-09-22 08:59:03,196: Key pressed: h
+2025-09-22 08:59:03,391: Key pressed: i
+2025-09-22 08:59:03,488: Key pressed: s
+2025-09-22 08:59:03,655: Key pressed: Key.space
+2025-09-22 08:59:07,801: Key pressed: i
+2025-09-22 08:59:07,901: Key pressed: s
+2025-09-22 08:59:08,205: Key pressed: Key.space
+2025-09-22 08:59:08,567: Key pressed: a
+2025-09-22 08:59:08,700: Key pressed: Key.space
+2025-09-22 08:59:09,416: Key pressed: t
+2025-09-22 08:59:09,911: Key pressed: e
+2025-09-22 08:59:10,161: Key pressed: s
+2025-09-22 08:59:10,372: Key pressed: t
+2025-09-22 08:59:11,082: Screenshot saved: screenshots/screenshot_20250922_085910.png
+2025-09-22 08:59:11,082: Key pressed: Key.space
+2025-09-22 08:59:11,082: Clipboard captured: clipboard_data/clipboard_20250922_085911.txt
+2025-09-22 08:59:11,082: Key pressed: o
+2025-09-22 08:59:11,082: Key pressed: f
+2025-09-22 08:59:11,096: Key pressed: Key.space
+2025-09-22 08:59:11,097: Key pressed: f
+2025-09-22 08:59:11,273: Key pressed: u
+2025-09-22 08:59:11,397: Key pressed: n
+2025-09-22 08:59:11,497: Key pressed: c
+2025-09-22 08:59:11,747: Key pressed: t
+2025-09-22 08:59:11,913: Key pressed: i
+2025-09-22 08:59:12,081: Key pressed: o
+2025-09-22 08:59:12,263: Key pressed: n
+2025-09-22 08:59:12,363: Key pressed: a
+2025-09-22 08:59:12,530: Key pressed: l
+2025-09-22 08:59:12,779: Key pressed: i
+2025-09-22 08:59:12,930: Key pressed: t
+2025-09-22 08:59:13,142: Key pressed: y
+2025-09-22 08:59:13,462: Key pressed: Key.space
+2025-09-22 08:59:13,862: Key pressed: t
+2025-09-22 08:59:14,061: Key pressed: o
+2025-09-22 08:59:14,228: Key pressed: Key.space
+2025-09-22 08:59:14,341: Key pressed: s
+2025-09-22 08:59:14,478: Key pressed: e
+2025-09-22 08:59:14,646: Key pressed: e
+2025-09-22 08:59:14,762: Key pressed: Key.space
+2025-09-22 08:59:15,527: Screenshot saved: screenshots/screenshot_20250922_085915.png
+2025-09-22 08:59:15,539: Key pressed: i
+2025-09-22 08:59:15,539: Key pressed: Key.space
+2025-09-22 08:59:15,645: Key pressed: e
+2025-09-22 08:59:15,823: Key pressed: v
+2025-09-22 08:59:15,897: Key pressed: e
+2025-09-22 08:59:16,093: Key pressed: r
+2025-09-22 08:59:16,209: Key pressed: y
+2025-09-22 08:59:16,327: Key pressed: t
+2025-09-22 08:59:16,442: Key pressed: h
+2025-09-22 08:59:16,692: Key pressed: i
+2025-09-22 08:59:16,825: Key pressed: n
+2025-09-22 08:59:16,943: Key pressed: g
+2025-09-22 08:59:17,042: Key pressed: Key.space
+2025-09-22 08:59:17,194: Key pressed: i
+2025-09-22 08:59:17,325: Key pressed: Key.space
+2025-09-22 08:59:17,525: Key pressed: h
+2025-09-22 08:59:17,625: Key pressed: a
+2025-09-22 08:59:17,774: Key pressed: v
+2025-09-22 08:59:17,891: Key pressed: e
+2025-09-22 08:59:18,007: Key pressed: Key.space
+2025-09-22 08:59:18,207: Key pressed: b
+2025-09-22 08:59:18,308: Key pressed: e
+2025-09-22 08:59:18,441: Key pressed: e
+2025-09-22 08:59:18,590: Key pressed: n
+2025-09-22 08:59:18,774: Key pressed: Key.space
+2025-09-22 08:59:19,551: Screenshot saved: screenshots/screenshot_20250922_085919.png
+2025-09-22 08:59:19,551: Key pressed: w
+2025-09-22 08:59:19,551: Key pressed: o
+2025-09-22 08:59:19,551: Key pressed: r
+2025-09-22 08:59:19,673: Key pressed: k
+2025-09-22 08:59:19,848: Key pressed: i
+2025-09-22 08:59:19,948: Key pressed: n
+2025-09-22 08:59:20,056: Key pressed: g
+2025-09-22 08:59:20,140: Key pressed: Key.space
+2025-09-22 08:59:20,304: Key pressed: o
+2025-09-22 08:59:20,472: Key pressed: n
+2025-09-22 08:59:20,622: Key pressed: Key.space
+2025-09-22 08:59:20,757: Key pressed: i
+2025-09-22 08:59:20,921: Key pressed: s
+2025-09-22 08:59:21,022: Key pressed: Key.space
+2025-09-22 08:59:21,155: Key pressed: e
+2025-09-22 08:59:21,322: Key pressed: v
+2025-09-22 08:59:21,473: Key pressed: e
+2025-09-22 08:59:21,654: Key pressed: n
+2025-09-22 08:59:21,804: Key pressed: Key.space
+2025-09-22 08:59:21,961: Key pressed: g
+2025-09-22 08:59:22,069: Key pressed: o
+2025-09-22 08:59:22,270: Key pressed: i
+2025-09-22 08:59:22,386: Key pressed: n
+2025-09-22 08:59:22,475: Key pressed: g
+2025-09-22 08:59:22,572: Key pressed: Key.space
+2025-09-22 08:59:23,141: Screenshot saved: screenshots/screenshot_20250922_085922.png
+2025-09-22 08:59:23,141: Key pressed: t
+2025-09-22 08:59:23,141: Key pressed: o
+2025-09-22 08:59:23,141: Key pressed: Key.space
+2025-09-22 08:59:23,154: Key pressed: t
+2025-09-22 08:59:23,221: Key pressed: u
+2025-09-22 08:59:23,321: Key pressed: r
+2025-09-22 08:59:23,449: Key pressed: n
+2025-09-22 08:59:23,586: Key pressed: Key.space
+2025-09-22 08:59:23,745: Key pressed: o
+2025-09-22 08:59:23,985: Key pressed: u
+2025-09-22 08:59:24,118: Key pressed: t
+2025-09-22 08:59:24,217: Key pressed: Key.space
+2025-09-22 08:59:24,309: Key pressed: f
+2025-09-22 08:59:24,402: Key pressed: i
+2025-09-22 08:59:24,568: Key pressed: n
+2025-09-22 08:59:24,653: Key pressed: e
+2025-09-22 08:59:24,768: Key pressed: Key.space
+2025-09-22 08:59:24,951: Key pressed: o
+2025-09-22 08:59:25,084: Key pressed: r
+2025-09-22 08:59:25,180: Key pressed: Key.space
+2025-09-22 08:59:25,322: Key pressed: i
+2025-09-22 08:59:25,445: Key pressed: Key.space
+2025-09-22 08:59:25,567: Key pressed: a
+2025-09-22 08:59:25,699: Key pressed: m
+2025-09-22 08:59:25,850: Key pressed: Key.space
+2025-09-22 08:59:26,527: Screenshot saved: screenshots/screenshot_20250922_085926.png
+2025-09-22 08:59:26,533: Key pressed: j
+2025-09-22 08:59:26,533: Key pressed: u
+2025-09-22 08:59:26,533: Key pressed: s
+2025-09-22 08:59:26,533: Key pressed: t
+2025-09-22 08:59:26,533: Key pressed: Key.space
+2025-09-22 08:59:26,767: Key pressed: w
+2025-09-22 08:59:26,938: Key pressed: a
+2025-09-22 08:59:27,133: Key pressed: s
+2025-09-22 08:59:27,298: Key pressed: t
+2025-09-22 08:59:27,372: Key pressed: i
+2025-09-22 08:59:27,608: Key pressed: g
+2025-09-22 08:59:27,715: Key pressed: Key.space
+2025-09-22 08:59:28,093: Key pressed: Key.backspace
+2025-09-22 08:59:28,617: Key pressed: n
+2025-09-22 08:59:28,747: Key pressed: g
+2025-09-22 08:59:28,830: Key pressed: Key.space
+2025-09-22 08:59:29,021: Key pressed: m
+2025-09-22 08:59:29,130: Key pressed: y
+2025-09-22 08:59:29,230: Key pressed: Key.space
+2025-09-22 08:59:29,362: Key pressed: t
+2025-09-22 08:59:29,480: Key pressed: i
+2025-09-22 08:59:29,579: Key pressed: m
+2025-09-22 08:59:29,656: Key pressed: e
+2025-09-22 09:00:07,109: Key pressed: Key.esc
+2025-09-22 09:00:07,276: Clipboard report generated: clipboard_report_20250922_090007.json
